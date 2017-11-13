@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-three-gltf",
-	"name": "NodeBB three gltf Plugin",
-	"description": "NodeBB Plugin that allows users to show gltf object.",
-	"url": "https://github.com/feilong/nodebb-plugin-three-gltf",
+	"id": "nodebb-plugin-babylon-babylon",
+	"name": "NodeBB babylon babylon Plugin",
+	"description": "NodeBB Plugin that allows users to show babylon object.",
+	"url": "https://github.com/feilong/nodebb-plugin-babylon-babylon",
 	"library": "./index.js",
 	"less": [
 		"responsive-embed.less"
@@ -11,7 +11,7 @@
 		"lib": "public/src"
 	},
 	"scripts": [
-		"public/src/three-gltf.js",
+		"public/src/babylon-babylon.js",
 		"public/src/Detector.js"
 	],
 	"hooks": [
