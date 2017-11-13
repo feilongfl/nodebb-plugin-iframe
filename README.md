@@ -1,19 +1,13 @@
 # NodeBB BiliBili Plugin
 
-This NodeBB plugin allows users to embed [BiliBili](http://www.bilibili.com/) videos inline in their posts.
+This NodeBB plugin allows users to show .3mf 3d object in their posts.
 
 ## Installation
 
-    npm install nodebb-plugin-bilibili
+    npm install nodebb-plugin-three-3mf
 
 ## screenshots
 
-when user read something have bilibili video(url like http://www.bilibili.com/video/av15587111/),you can see button like below.
-![](screenshots/1.jpg)
-then you can click it.
-![](screenshots/2.jpg)
-wait few second,you will find video is loading.
-![](screenshots/3.jpg)
-then you can watch the video.
-![](screenshots/4.jpg)
+show with [https://raw.githubusercontent.com/mrdoob/three.js/master/examples/models/3mf/cube_gears.3mf](https://raw.githubusercontent.com/mrdoob/three.js/master/examples/models/3mf/cube_gears.3mf)
 
+![](screenshots/1.jpg)
