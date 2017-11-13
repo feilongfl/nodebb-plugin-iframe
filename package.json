@@ -1,53 +1,26 @@
 {
-  "_from": "git+https://github.com/feilongfl/nodebb-plugin-bilibili.git",
-  "_id": "nodebb-plugin-bilibili@0.1.2",
-  "_inBundle": false,
-  "_integrity": "sha1-wCQCGJFvQKwbR6TAhIUDcmb2tLc=",
-  "_location": "/nodebb-plugin-bilibili",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "nodebb-plugin-bilibili@git+https://github.com/feilongfl/nodebb-plugin-bilibili.git",
-    "name": "nodebb-plugin-bilibili",
-    "escapedName": "nodebb-plugin-bilibili",
-    "rawSpec": "git+https://github.com/feilongfl/nodebb-plugin-bilibili.git",
-    "saveSpec": "git+https://github.com/feilongfl/nodebb-plugin-bilibili.git",
-    "fetchSpec": "https://github.com/feilongfl/nodebb-plugin-bilibili.git",
-    "gitCommittish": "master"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/feilongfl/nodebb-plugin-bilibili.git#4fed84498e61c3da6cdf887638a4495b8f2c7ded",
-  "_spec": "nodebb-plugin-bilibili@git+https://github.com/feilongfl/nodebb-plugin-bilibili.git",
-  "_where": "E:\\nodebb\\NodeBB",
-  "author": {
-    "name": "Jeremy Lam",
-    "email": "jlchntoz@hkcdc.org",
-    "url": "http://gh.jlctz.tk/"
-  },
   "bugs": {
-    "url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili/issues"
+    "url": "https://github.com/feilongfl/nodebb-plugin-three-3mf/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "NodeBB Plugin that allows users to embed BiliBili videos inline in their posts.",
-  "homepage": "https://github.com/JLChnToZ/nodebb-plugin-bilibili",
+  "description": "NodeBB Plugin that allows users to embed three-3mf videos inline in their posts.",
+  "homepage": "https://github.com/feilongfl/nodebb-plugin-three-3mf",
   "keywords": [
     "NodeBB",
     "Plugin",
-    "bilibili"
+    "three-3mf",
+    "3d"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "nodebb-plugin-bilibili",
+  "name": "nodebb-plugin-three-3mf",
   "nbbpm": {
     "compatibility": "^1.6.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JLChnToZ/nodebb-plugin-bilibili.git"
+    "url": "git+https://github.com/feilongfl/nodebb-plugin-three-3mf.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
