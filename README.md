@@ -12,6 +12,8 @@ show with [https://raw.githubusercontent.com/mrdoob/three.js/master/examples/mod
 
 ![](screenshots/1.jpg)
 
+![](screenshots/2.jpg)
+
 ## known issus
 
 Can not load 3mf files which generate by Microsoft 3D Builder.
