@@ -1,26 +1,26 @@
 {
   "bugs": {
-    "url": "https://github.com/feilongfl/nodebb-plugin-three-3mf/issues"
+    "url": "https://github.com/feilongfl/nodebb-plugin-three-gltf/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "NodeBB Plugin that allows users to embed three-3mf videos inline in their posts.",
-  "homepage": "https://github.com/feilongfl/nodebb-plugin-three-3mf",
+  "description": "NodeBB Plugin that allows users to embed three-gltf videos inline in their posts.",
+  "homepage": "https://github.com/feilongfl/nodebb-plugin-three-gltf",
   "keywords": [
     "NodeBB",
     "Plugin",
-    "three-3mf",
+    "three-gltf",
     "3d"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "nodebb-plugin-three-3mf",
+  "name": "nodebb-plugin-three-gltf",
   "nbbpm": {
     "compatibility": "^1.6.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feilongfl/nodebb-plugin-three-3mf.git"
+    "url": "git+https://github.com/feilongfl/nodebb-plugin-three-gltf.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

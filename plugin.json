@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-three-3mf",
-	"name": "NodeBB three 3mf Plugin",
-	"description": "NodeBB Plugin that allows users to show 3mf object.",
-	"url": "https://github.com/feilong/nodebb-plugin-three-3mf",
+	"id": "nodebb-plugin-three-gltf",
+	"name": "NodeBB three gltf Plugin",
+	"description": "NodeBB Plugin that allows users to show gltf object.",
+	"url": "https://github.com/feilong/nodebb-plugin-three-gltf",
 	"library": "./index.js",
 	"less": [
 		"responsive-embed.less"
@@ -11,7 +11,7 @@
 		"lib": "public/src"
 	},
 	"scripts": [
-		"public/src/three-3mf.js",
+		"public/src/three-gltf.js",
 		"public/src/Detector.js"
 	],
 	"hooks": [
