@@ -11,8 +11,7 @@
 		"lib": "public/src"
 	},
 	"scripts": [
-		"public/src/babylon-babylon.js",
-		"public/src/Detector.js"
+		"public/src/babylon-babylon.js"
 	],
 	"hooks": [
 		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true },
