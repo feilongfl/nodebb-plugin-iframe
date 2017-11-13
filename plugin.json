@@ -1,0 +1,21 @@
+{
+	"id": "nodebb-plugin-three-3mf",
+	"name": "NodeBB three 3mf Plugin",
+	"description": "NodeBB Plugin that allows users to show 3mf object.",
+	"url": "https://github.com/feilong/nodebb-plugin-three-3mf",
+	"library": "./index.js",
+	"less": [
+		"responsive-embed.less"
+	],
+	"staticDirs": {
+		"lib": "public/src"
+	},
+	"scripts": [
+		"public/src/three-3mf.js",
+		"public/src/Detector.js"
+	],
+	"hooks": [
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true },
+		{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": true }
+	]
+}
