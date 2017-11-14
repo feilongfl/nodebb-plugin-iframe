@@ -2,7 +2,7 @@
 	"use strict";
 	var converts = [{ // Video
 		//<img src="https://github.com/feilongfl/pic-bed/raw/master/201711/%E6%BB%91%E7%A8%BD.3mf" alt="" class="img-responsive img-markdown" />
-		from: /<a href="(http(?:s)?:\/\/(?:.+))"[^>]>#iframe<\/a>/g,
+		from: /<a href="(http(?:s)?:\/\/(?:.+))"[^>]+>#iframe<\/a>/g,
 		//from: /<a href="(?:https?:\/\/)?(?:www\.)?bilibili\.(?:tv|com)\/video\/av(\d+).*?">.+<\/a>/g,
 		to: '<div class="iframe">' +
 				'<p>框架网址来自：<a href="$1" rel="nofollow">$1</a></p>' +
