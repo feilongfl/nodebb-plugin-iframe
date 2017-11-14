@@ -51,7 +51,7 @@ function setGltf(gltfarea) {
 }
 
 $(window).on('action:ajaxify.end', function () {
-	console.log(on);
+	// console.log("on");
 	require(['https://cdn.rawgit.com/BabylonJS/Babylon.js/master/dist/preview%20release/babylon.js'], function () {
 		// require(['https://cdnjs.cloudflare.com/ajax/libs/babylonjs/3.0.1-beta/babylon.max.js'], function () {
 		// require(['https://cdn.babylonjs.com/babylon.js'], function () {
