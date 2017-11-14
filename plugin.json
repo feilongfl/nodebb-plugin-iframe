@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-babylon-babylon",
+	"id": "nodebb-plugin-babylon-gltf",
 	"name": "NodeBB babylon babylon Plugin",
 	"description": "NodeBB Plugin that allows users to show babylon object.",
-	"url": "https://github.com/feilong/nodebb-plugin-babylon-babylon",
+	"url": "https://github.com/feilong/nodebb-plugin-babylon-gltf",
 	"library": "./index.js",
 	"less": [
 		"responsive-embed.less"
@@ -11,7 +11,7 @@
 		"lib": "public/src"
 	},
 	"scripts": [
-		"public/src/babylon-babylon.js"
+		"public/src/babylon-gltf.js"
 	],
 	"hooks": [
 		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true },
