@@ -32,7 +32,8 @@ function setGltf(gltfarea) {
 		light.intensity = 0.7;
 
 		// Append sample glTF model to scene
-		BABYLON.SceneLoader.Append("https://raw.githubusercontent.com/feilongfl/pic-bed/master/201711/", "%E6%BB%91%E7%A8%BD.glb", scene, function (scene) {}, null, function (scene) {
+		// BABYLON.SceneLoader.Append("https://raw.githubusercontent.com/feilongfl/pic-bed/master/201711/", "%E6%BB%91%E7%A8%BD.glb", scene, function (scene) {}, null, function (scene) {
+		BABYLON.SceneLoader.Append(rooturl, gltfname, scene, function (scene) {}, null, function (scene) {
 			console.log("error!")
 		});
 
