@@ -1,47 +1,47 @@
 {
-  "_from": "git+https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git",
-  "_id": "nodebb-plugin-babylon-gltf@0.1.2",
+  "_from": "git+https://github.com/feilongfl/nodebb-plugin-iframe.git",
+  "_id": "nodebb-plugin-iframe@0.1.2",
   "_inBundle": false,
   "_integrity": "sha1-xMG3Hxhy4RTrKhl8ZU9+R90XLTM=",
-  "_location": "/nodebb-plugin-babylon-gltf",
+  "_location": "/nodebb-plugin-iframe",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git",
-    "rawSpec": "https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git",
-    "saveSpec": "git+https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git",
-    "fetchSpec": "https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git",
+    "raw": "https://github.com/feilongfl/nodebb-plugin-iframe.git",
+    "rawSpec": "https://github.com/feilongfl/nodebb-plugin-iframe.git",
+    "saveSpec": "git+https://github.com/feilongfl/nodebb-plugin-iframe.git",
+    "fetchSpec": "https://github.com/feilongfl/nodebb-plugin-iframe.git",
     "gitCommittish": "master"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git#5a6d5c031a43fa6fa38448159f22e38eb836bfbc",
-  "_spec": "https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git",
+  "_resolved": "git+https://github.com/feilongfl/nodebb-plugin-iframe.git#5a6d5c031a43fa6fa38448159f22e38eb836bfbc",
+  "_spec": "https://github.com/feilongfl/nodebb-plugin-iframe.git",
   "_where": "F:\\nodebb\\NodeBB",
   "bugs": {
-    "url": "https://github.com/feilongfl/nodebb-plugin-babylon-gltf/issues"
+    "url": "https://github.com/feilongfl/nodebb-plugin-iframe/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "NodeBB Plugin that allows users to embed babylon-gltf videos inline in their posts.",
-  "homepage": "https://github.com/feilongfl/nodebb-plugin-babylon-gltf",
+  "description": "NodeBB Plugin that allows users to embed iframe videos inline in their posts.",
+  "homepage": "https://github.com/feilongfl/nodebb-plugin-iframe",
   "keywords": [
     "NodeBB",
     "Plugin",
-    "babylon-gltf",
+    "iframe",
     "3d"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "nodebb-plugin-babylon-gltf",
+  "name": "nodebb-plugin-iframe",
   "nbbpm": {
     "compatibility": "^1.6.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feilongfl/nodebb-plugin-babylon-gltf.git"
+    "url": "git+https://github.com/feilongfl/nodebb-plugin-iframe.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
