@@ -4,10 +4,17 @@
 	"description": "This NodeBB plugin allows users to show other website in nodebb.",
 	"url": "https://github.com/feilong/nodebb-plugin-iframe",
 	"library": "./index.js",
+	"staticDirs": {
+		"lib": "public/src"
+	},
+	"scripts": [
+		"public/src/iframeloader.js"
+	],
 	"less": [
 		"responsive-embed.less"
 	],
 	"hooks": [
-		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true },
+		{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": true }
 	]
 }
