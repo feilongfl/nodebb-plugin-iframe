@@ -5,6 +5,8 @@
 		from: /<img src="(((?:https?:\/\/)?(?:.*)\/)(.*\.(?:(?:glb)|(?:gltf))))" alt="" class="img-responsive img-markdown" \/>/g,
 		//from: /<a href="(?:https?:\/\/)?(?:www\.)?bilibili\.(?:tv|com)\/video\/av(\d+).*?">.+<\/a>/g,
 		to: '<div class="3darea">' +
+		'<p>glb 3d 模型文件 </p>' +
+		'<a href="$1">glb模型下载</a>' +
 			'<div class="gltfobj" id="$1"' +
 			'</div>' +
 			'</div>'
