@@ -12,8 +12,8 @@
 	}];
 
 	bili.parse = function (data, callback) {
-		console.log("aaa");
-		console.log(data);
+		// console.log("aaa");
+		// console.log(data);
 		try {
 			for (var i = 0; i < converts.length; i++)
 				data.postData.content = data.postData.content.replace(converts[i].from, converts[i].to);
