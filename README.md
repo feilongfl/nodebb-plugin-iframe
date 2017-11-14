@@ -1,21 +1,15 @@
-# NodeBB BiliBili Plugin
+# NodeBB iframe Plugin
 
-This NodeBB plugin allows users to show .gltf 3d object in their posts.
+This NodeBB plugin allows users to show other website in nodebb.
 
 ## Installation
 
-    npm install nodebb-plugin-babylon-gltf
+    npm install nodebb-plugin-iframe
 
 ## screenshots
 
-show with [https://raw.githubusercontent.com/mrdoob/babylon.js/master/examples/models/gltf/cube_gears.gltf](https://raw.githubusercontent.com/mrdoob/babylon.js/master/examples/models/gltf/cube_gears.gltf)
-
-![](screenshots/1.jpg)
-
-![](screenshots/2.jpg)
 
 ## known issus
 
-Can not load gltf files which generate by Microsoft 3D Builder.
-> [https://github.com/mrdoob/babylon.js/issues/12640](https://github.com/mrdoob/babylon.js/issues/12640)
+none
 
