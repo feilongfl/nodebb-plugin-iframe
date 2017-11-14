@@ -7,7 +7,7 @@ function setGltf(gltfarea) {
 	console.log('root: ' + rooturl + ' ,name: ' + gltfname);
 
 	var canvas = document.createElement("CANVAS");
-	canvas.width = 400;
+	canvas.width = gltfarea.clientWidth;
 	canvas.height = 400;
 	gltfarea.appendChild(canvas);
 
