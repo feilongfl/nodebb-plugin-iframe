@@ -50,13 +50,16 @@ function setGltf(gltfarea) {
 	});
 }
 
-
-// require(['https://cdnjs.cloudflare.com/ajax/libs/babylonjs/3.0.1-beta/babylon.max.js'], function () {
-require(['https://cdn.babylonjs.com/babylon.js'], function () {
-	require(['https://cdn.rawgit.com/BabylonJS/Babylon.js/master/dist/preview%20release/loaders/babylon.glTFFileLoader.min.js'], function () {
-		for (var i = 0; i < $(".gltfobj").length; i++) {
-			setGltf($(".gltfobj")[i]);
-			// console.log(i);
-		}
+$(window).on('action:ajaxify.end', function () {
+	console.log(on);
+	require(['https://cdn.rawgit.com/BabylonJS/Babylon.js/master/dist/preview%20release/babylon.js'], function () {
+		// require(['https://cdnjs.cloudflare.com/ajax/libs/babylonjs/3.0.1-beta/babylon.max.js'], function () {
+		// require(['https://cdn.babylonjs.com/babylon.js'], function () {
+		require(['https://cdn.rawgit.com/BabylonJS/Babylon.js/master/dist/preview%20release/loaders/babylon.glTFFileLoader.min.js'], function () {
+			for (var i = 0; i < $(".gltfobj").length; i++) {
+				setGltf($(".gltfobj")[i]);
+				// console.log(i);
+			}
+		});
 	});
 });

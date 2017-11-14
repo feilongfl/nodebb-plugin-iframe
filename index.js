@@ -24,7 +24,6 @@
 	bili.addScripts = function (scripts, callback) {
 		//console.log("o.o...");
 		scripts.push('/assets/src/babylon-gltf.js');
-		scripts.push('/assets/src/Detector.js');
 		// scripts.push('/assets/src/3MFLoader.js');
 		callback(null, scripts);
 	}
