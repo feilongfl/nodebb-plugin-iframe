@@ -47,6 +47,7 @@ function setGltf(gltfarea) {
 	});
 
 	window.addEventListener("resize", function () { // Watch for browser/canvas resize events
+		canvas.width = gltfarea.clientWidth;
 		engine.resize();
 	});
 }
