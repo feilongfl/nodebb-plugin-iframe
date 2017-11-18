@@ -5,6 +5,7 @@ $(window).on('action:ajaxify.end', function () {
 			var iframehtml = document.createElement("iframe");
 			iframehtml.src = $(".iframe-content")[i].id;
 			iframehtml.id = 'iframe';
+			iframehtml.frameBorder="0px"
 			$(".iframe-content")[i].appendChild(iframehtml);
 			$("#iframe")[i].width = $(".iframe-content")[i].clientWidth;
 			$("#iframe")[i].height = $("#iframe")[i].width * 9 / 16;
